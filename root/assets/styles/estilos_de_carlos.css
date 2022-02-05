@@ -1,2 +1,5 @@
 body{background-color: black; color: aliceblue;}
 article{background-color: rgb(44, 43, 43);}
+.resaltado{color: yellow;}
+#videojuegos{text-align: center; font-size: 3rem;}
+#computadora{text-align: center; font-size: 3rem;}
