@@ -19,6 +19,8 @@ article{background-color: rgb(44,43,43);padding: 1.5rem;border-bottom: 1px solid
 #deportes{text-align: center; font-size: 3rem;}
 #cine{text-align: center; font-size: 3rem;}
 .resaltado{color: yellow;}
+.links{color:rgb(142, 235, 114)}
+.paginas{color:rgb(231, 219, 107)}
 nav>ul>li{list-style: none;}
 nav>ul>li>a{color: white;}
 #footer_blog{display: flex;margin: 2rem;align-items: center;justify-content: space-between;padding: 4rem 0 4rem 0;font-size: 1.3rem;}
@@ -48,7 +50,7 @@ article>header>hgroup>h2{
 article>header>hgroup>h2>img{
     margin-right: 1rem;
 }
-aside>h2{align-items: center;font-size: 1.3rem;}
+aside>h2{align-items: center;font-size: 1.6rem;text-align: center;}
 aside>div:nth-of-type(even){background-color: rgb(44, 43, 43);}
 aside>div>img {
     background-color: rgb(242, 247, 248);
