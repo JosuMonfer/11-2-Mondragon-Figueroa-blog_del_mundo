@@ -34,6 +34,13 @@ section>footer {
     grid-column: span 12;
 }
 
+@media(min-width: 1024.1px){
+    section>footer {
+        flex-direction: column;
+        line-height: 3rem;
+    }
+}
+
 body{
     background-color: black;
     color:white;
