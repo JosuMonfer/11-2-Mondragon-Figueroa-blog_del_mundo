@@ -8,6 +8,7 @@ section {
 }
 section>header {
     grid-column: span 12;
+    font-size: clamp(2rem, calc(1vw + 2rem), 7rem);
 }
 
 section>main{
@@ -32,12 +33,16 @@ section>aside{
 
 section>footer {
     grid-column: span 12;
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0 4rem 0;
+    font-size: 1.3rem;
 }
 
 @media(min-width: 1024.1px){
     section>footer {
-        flex-direction: column;
-        line-height: 3rem;
     }
 }
 
@@ -82,15 +87,6 @@ nav>ul>li{
 
 nav>ul>li>a{
     color: white;
-}
-
-#footer_blog{
-    display: flex;
-    margin: 2rem;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4rem 0 4rem 0;
-    font-size: 1.3rem;
 }
 
 #footer_blog div:nth-child(2){
