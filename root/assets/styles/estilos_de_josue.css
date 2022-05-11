@@ -9,6 +9,7 @@ section {
 section>header {
     grid-column: span 12;
     font-size: clamp(2rem, calc(1vw + 2rem), 7rem);
+    padding: 10%;
 }
 
 section>main{
@@ -41,8 +42,10 @@ section>footer {
     font-size: 1.3rem;
 }
 
-@media(min-width: 1024.1px){
+@media(max-width: 1024.1px){
     section>footer {
+        flex-direction: column;
+        line-height: 38px;
     }
 }
 
